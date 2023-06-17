@@ -50,6 +50,8 @@ h1 {
 .number{
     position: absolute;
     bottom: 0rem;
+    /* width is defined here to use in DOM */
+    width: 10rem;
     font-size: 5rem;
     text-align: center;
     left: 50%;
@@ -112,10 +114,10 @@ main {
     
   }
 
-.score{
+.label-score{
     
 }
-.highscore{
+.label-highscore{
     
     margin-bottom: 30rem;
 }
